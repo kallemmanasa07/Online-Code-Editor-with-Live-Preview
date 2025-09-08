@@ -42,23 +42,39 @@ The system is built using React.js as the frontend framework and leverages @mona
 └── package.json
 
          Step 2: Create the UI
+         
 •	Build EditorPane.jsx using Monaco Editor.
+
 •	Create PreviewPane.jsx with an iframe to display live output.
+
 •	Add Toolbar.jsx for the project title (and optional future buttons like Run, Clear, Save).
+
 •	Style layout in styles.css (split editor and preview vertically).
+     
       Step 3: Logic Implementation
+      
 •	Use React’s useState hooks in App.jsx to manage HTML, CSS, and JS code.
+
 •	Construct a dynamic srcDoc that injects the HTML, CSS, and JS into the iframe.
+
 •	Ensure the editor updates the preview in real time when code changes.
+  
     Step 4: Testing
+    
 •	Test the application locally using:
                 npm start
+                
 •	Verify:
 o	HTML editor updates instantly in preview.
+
 o	CSS styling applies correctly.
+
 o	JavaScript runs in console and page.
+
      Step 5: Deployment (Optional)
+     
 •	Deploy to Netlify, Vercel, or GitHub Pages for online access.
+
 •	Run:
  npm run build
     and upload the build folder.
@@ -66,7 +82,11 @@ o	JavaScript runs in console and page.
  Conclusion
  
 The Online Code Editor with Live Preview successfully demonstrates how modern frontend tools can replicate IDE functionality in the browser. With React and Monaco Editor, the system provides a smooth coding experience with real-time feedback.
+
 This project can be further enhanced by:
+
 •	Adding code templates (e.g., Bootstrap starter, HTML boilerplate).
+
 •	Supporting cloud storage for saving and loading snippets.
+
 •	Enabling multi-file projects or collaborative editing.
