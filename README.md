@@ -65,6 +65,7 @@ The system is built using React.js as the frontend framework and leverages @mona
                 npm start
                 
 •	Verify:
+
 1	HTML editor updates instantly in preview.
 
 2	CSS styling applies correctly.
